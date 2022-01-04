@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheraspace</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image" href="images/titleicon5.png">
+        <!------------------------------font awesome---------------------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+         <!------------------------fonts---------------------->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+     <!-------------------------------------css link----------------------------------> 
+      <link rel="stylesheet" type="text/css" href="features.css">
+
+</head>
+<body>
+   
+    <div class="container">
+        <div class="upbar">
+         <div id="fb">
+        <div class="time">
+            <p><a href="tel:+88016788657676"><i class="fa fa-phone-square" aria-hidden="true"></i><span>01814567893</span></a><a href="mailto:rahidapriyacse@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i><span>sheraspace@gmail.com</span></a></p>
+           
+        </div>
+        <div class="link">
+            <p><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a><a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
+            
+        </div>
+    </div>
+    <hr>
+</div>
+<div class="upbar2">
+     <div id="nav">
+         <div class="logo"><p><i class="fa fa-houzz" aria-hidden="true"></i>Shera<span>space</span></p></div>
+         <div class="nav-menu">
+            <ul>
+                <li><a href="#home"> Home</a></li> 
+                 <li><a href="#design gallary">Design Gallary</a></li>
+                 <li><a href="#Features">Features</a>
+                     <div class="sub1">
+                      <ul>
+                          <li><a href="#home">Home</a>
+                            <div class="sub2">
+                                <ul>
+                                    <li><a href="#inside">Inside</a></li>
+                                    <li><a href="#outside">Outside</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                         
+                          <li><a href="#restaurant">Restaurant</a></li>
+                          <li><a href="#office">Office</a></li>
+
+                      </ul>
+                     </div>
+                </li>
+                 <li><a href="#review">Review</a></li>
+                 <li><a href="#contact">Contact</a></li>
+               
+                <!--<a class="btn" href="#"><button>Book Appoinment</button></a>-->
+                <a class="btn" href="#">Book Appointment</a>
+
+            </ul>      
+     </div>
+    </div>
+</div>
+    <img src="badroom.jpg">
+</div>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro nemo dolore nulla quas quibusdam ullam. A
+    d ducimus architecto ex rerum laboriosam. Accusamus sint explicabo est. Corporis iure animi officiis itaque.</p>
+<script>
+    //change nav background with scroll
+
+//window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("nav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset> sticky) {
+    header.classList.add("sticky");
+   header.style.background = "rgb(74, 77, 77)";
+  } else {
+    header.classList.remove("sticky");
+    header.style.background = "none";
+  }
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+       
+   <title>Sherastudio</title>
+   <!-----------------------------------animation link------------------------------>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <!---------------------title icon link---------------------------------------->
+   <link rel="shortcut icon" type="image" href="images/titleicon5.png">
+       
+    <!-------------------------------------main css link----------------------------------> 
+     <link rel="stylesheet" type="text/css" href="fpindoor_style.css">
+      <!-------font-awesome-------------------------------------------------->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     <!---------------------------review button -------------->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!------------------------fonts---------------------->
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Lora:ital@1&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+    
+   <!---- <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <script> src="https://code.jquery.com/jquery-3.5.1.min.js"</script>
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>-->
+      <!-- <script src="https://kit.fontawesome.com/7f2582ca73.js" crossorigin="anonymous"></script> -->
+      <!------------------------------design gallary slider link------------------------>
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet="href="css/slick.css">
+    <link rel="stylesheet="href="css/slick-theme.css">
+    </head>
+
+
+
+<body>
+<div class="container"> 
+<!---------------------------------------------------->
+<div id="nav">
+  <div class="logo"><p><i class="fa fa-houzz" aria-hidden="true"></i>Shera<span>studio</span></p></div>
+  <div class="nav-menu">
+     <ul>
+         <li><a href="http://127.0.0.1:5500/slick%20slider/index.html"> Home</a></li> 
+          <li><a href="http://127.0.0.1:5500/slick%20slider/index.html#design%20gallary">Design Gallary</a></li>
+          <li><a href="#Features">Features</a>
+              <div class="sub1">
+               <ul>
+                   <li><a href="#home">Home</a>
+                     <div class="sub2">
+                         <ul>
+                          <li><a href="http://127.0.0.1:5500/slick%20slider/fpindoor_index.html">Indoor</a></li>
+                          <li><a href="http://127.0.0.1:5500/slick%20slider/fpoutdoor_index.html">Outdoor</a></li>
+                         </ul>
+                     </div>
+                 </li>
+                  
+                 <li><a href="http://127.0.0.1:5500/slick%20slider/fp3_index.html">Restaurant</a></li>
+                 <li><a href="http://127.0.0.1:5500/slick%20slider/fp2_index.html">Office</a></li>
+
+               </ul>
+              </div>
+         </li>
+          <li><a href="http://127.0.0.1:5500/slick%20slider/index.html#review">Review</a></li>
+          <li><a href="http://127.0.0.1:5500/slick%20slider/index.html#contact">Contact</a></li>
+          <button class="btn" onclick="openForm()">Book Appoinment</button>
+         </ul>      
+       </div>
+                  <div class="pop-cont" id="myForm">            
+     <div class="form-popup" id="myForm">
+       <div class="form-side">
+         <h2>Book Appoinment</h2>
+         <p>Fill in your details to book an appointment. Alternatively, you may also call or email us.</p>
+         <div class="phone">
+           <p><a href="tel:+88016788657676"><i class="fa fa-phone" aria-hidden="true"></i>0167887655677</p>
+           <p> <a href="mailto:rahidapriyacse@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></i>Sherastudio@gmail.com</a></p>
+         </div>
+       </div>
+    <form action="" class="form-container">
+      <!-- <div id="triangle-left"></div> -->
+      <!-- <h1>Login</h1> -->
+      <label for="name"><b></b></label>
+      <input type="text" placeholder="Name" name="name" required>
+  
+      <label for="email"><b></b></label>
+      <input type="text" placeholder=" Email" name="email" required>
+  
+      <label for="psw"><b></b></label>
+      <input type="number" placeholder=" Phone Number" name="psw" required>
+      <label for="location"><b></b></label>
+      <input type="text" placeholder="Property Location" name="name" required>
+  
+  
+      <button type="submit" class="bttn">Submit</button>
+      <button type="button" class="bttn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+      </div>
+    
+  </div>
+  </div>
+
+
+  
+  <div class="cover">
+    <div class="cover-title">
+        <h1>FEATURED PROJECT</h1> 
+        <div class="cover-text">
+            <a href="http://127.0.0.1:5505/index.html#home">HOME</a><i class="fa fa-chevron-right"></i><p>FEATURED PROJECT</p> <i class="fa fa-chevron-right"></i> <p>HOME DESIGN</p>  <i class="fa fa-chevron-right"></i> <p>INDOOR</p> 
+        </div>
+         
+    </div>
+ </div>
+
+ <!----------------------------------- fp ---------------------------------------------->
+ <div class="designhead"data-aos="zoom-in">
+  <h2><i class="fa fa-window-minimize" aria-hidden="true"></i><i class="fa fa-window-minimize" aria-hidden="true"></i>Indoor Design<i class="fa fa-window-minimize" aria-hidden="true"></i><i class="fa fa-window-minimize" aria-hidden="true"></i></h2>
+</div>
+ <div class="fp1-grid">
+      
+  <div class="fp1-con">
+      <img  class="fp1-con-img" src="fp_images/1.png" alt="">
+      <h2 class="fp1-con-title">Traditional bed room </h2>
+      <button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+  </div>
+  <div class="fp1-con">
+  <img  class="fp1-con-img" src="fp_images/2.png" alt="">
+  <h2 class="fp1-con-title">Traditional living room </h2>
+  <button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+</div>
+ <div class="fp1-con">
+<img  class="fp1-con-img" src="fp_images/3.png" alt="">
+<h2 class="fp1-con-title">Standard Living room </h2>
+<button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+</div>
+ <div class="fp1-con">
+<img  class="container-img" src="fp_images/4.png" alt="">
+<h2 class="fp1-con-title">Yellow White Bed room</h2>
+<button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+</div>
+  <div class="fp1-con">
+<img  class="container-img" src="fp_images/5.png" alt="">
+<h2 class="fp1-con-title">Traditional living room</h2>
+<button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+</div>
+  <div class="fp1-con">
+<img  class="container-img" src="fp_images/6.png" alt="">
+<h2 class="fp1-con-title">Vibrant living room</h2>
+<button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+</div>
+  <div class="fp1-con">
+<img  class="container-img" src="fp_images/7.png" alt="">
+<h2 class="fp1-con-title">Traditional Modern Fusion </h2>
+<button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+</div>
+  <div class="fp1-con">
+<img  class="container-img" src="fp_images/8.png" alt="">
+<h2 class="fp1-con-title">Club Chair Dining </h2>
+<button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+</div>
+<div class="fp1-con">
+<img  class="container-img" src="fp_images/9.png" alt="">
+<h2 class="container-title">Club Chair Dining </h2>
+<button class="details-btn"data-aos="zoom-in"><a href="http://127.0.0.1:5500/slick%20slider/Viewdetails.html">View Details</a></button>
+</div>
+</div>
+<!------------------------------------- footer ------------------------------------------------->
+<div class="footer">
+
+  <div class="footer1">
+      <div class="ft1-col">
+          <div class="icon">
+            
+              <i class="fa fa-map-marker"style="font-size:40px;color:#ff5959;"></i>
+          </div>
+          <div class="info">
+              <h3>ADDRESS</h3>
+              <p>  Baridhara, Dhaka</p> 
+          </div>
+
+      </div>
+      <div class="ft1-col">
+          <div class="icon"><i class="fa fa-phone" style="font-size:30px;color:#ff5959;"></i></div>
+          <div class="info">
+              <h3>PHONE</h3>
+              <p>+8801738174440</p>
+          </div>
+          
+      </div>
+      <div class="ft1-col">
+          
+          <div class="icon"><i class="fa fa-envelope"style="font-size:30px;color:#ff5959;"></i></div>
+          <div class="info">
+              <h3>EMAIL</h3>
+              <p>sherastudio@gmail.com</p>
+          </div>
+          
+      </div>
+  </div>
+
+  
+
+  <div class="footer2">
+      <div class="ft2-col" id="ft2-col1">
+          <h6>ABOUT US</h6>
+          <p>Our work includes conceptual development, space planning, site inspections, programming,
+               research, communicating with the stakeholders of a project, construction management, and execution of the design</p>
+      </div>
+      <div class="ft2-col" id="ft2-col2">
+          <h6>QUICK LINKS</h6>
+          <li><a href="http://127.0.0.1:5505/index.html#design%20gallary">Design Gallery</a></li>
+          <li><a href="http://127.0.0.1:5505/index.html#review">Review</a></li>
+           <li><a href="http://127.0.0.1:5505/index.html#contact">Contact</a></li>
+          
+      </div>
+      <div class="ft2-col" id="ft2-col3">
+          <h6>GET in TOUCH</h6>
+          <div id="ft2-col3-icon">
+              <a href="https://www.facebook.com/" class="fa fa-facebook" ></a>
+              <a href="https://www.pinterest.com/" class="fa fa-pinterest" ></a>
+              <a href="https://www.linkedin/" class="fa fa-linkedin" ></a>
+              <a href="https://www.github.com/" class="fa fa-github" ></a>
+              <a href="https://www.twitter.com/" class="fa fa-twitter" ></a>
+              
+            
+          </div>
+ 
+      </div>
+  </div>
+  <hr>
+  <div class="footer3">
+      <p class="ft3-text">2021 </p> <li class="ft3-text">SHERASTUDIO</li>  | <li class="ft3-text">Privacy Policy </li>  |<li class="ft3-text">Terms Of Service</li>  | <li class="ft3-text">Accessibility Statement</li>
+      
+  </div>
+  
+</div>
+            <!--------------------------------Script link for animation----------------------------->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!---------------------------------------------------------------->
+<script>
+  //animation code
+  AOS.init({
+    offset: 320, 
+    duration: 600,
+});
+    ////pooup////
+
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
+//change nav background with scroll
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("nav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset> sticky) {
+           header.classList.add("sticky");
+           header.classList.add("shadow");
+           header.style.background = "#ffffff";
+          } else {
+           header.classList.remove("sticky");
+           header.classList.remove("shadow");
+          header.style.background = "none";
+          }
+        }
+
+
+</script>
+</body>
